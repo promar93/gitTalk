@@ -1,0 +1,17 @@
+{
+  "name": "dunkincml",
+  "version": "0.0.1",
+  "description": "Dunkin CML",
+  "author": "OmarForrester",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.2.0",
+    "node-bourbon": "^4.2.8",
+    "node-sass": "^3.6.0"
+  },
+  "dependencies": {}
+}
