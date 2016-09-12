@@ -12,7 +12,8 @@ module.exports = function(grunt) {
         },
         files:{                                           // Dictionary of files
           // 'destination': 'source'
-          'dunkin/welcome_build/css/dd-cml-welcome.css': ['dunkin/welcome_dev/scss/dd-cml-welcome.scss'] // All project files are imported through materialize.scss
+          'honeywell/hb.css': ['honeywell/honeywell-bio.scss'], // All project files are imported through materialize.scss
+          'dunkin/cp_build/css/br-suppcenter.css': ['dunkin/cp_dev/scss/br-suppcenter.scss']
         }
       },
     },
@@ -20,7 +21,8 @@ module.exports = function(grunt) {
       styles: {
         files: [
           // Listen for Sass/SCSS Files
-          'dunkin/welcome_dev/scss/*.scss'
+          'honeywell/*.scss',
+          'dunkin/cp_dev/scss/*.scss'
 
         ],
         /* These are your tasks from above and they run in the order you have them here! */
